@@ -1,0 +1,28 @@
+# Clacky Development Ignored Files
+
+# Ignore Clacky related files
+.1024*
+!.1024
+.breakpoints
+
+# Ignore Node modules
+node_modules/
+npm-debug.log
+
+# Ignore build output
+build/
+dist/
+
+# Ignore other logs
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
