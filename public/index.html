@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>抽奖页面</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>抽奖活动</h1>
+      <table id="prizeTable">
+        <thead>
+          <tr>
+            <th>奖品名称</th>
+            <th>奖项</th>
+            <th>中奖人数</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 奖品列表 -->
+          <tr>
+            <td>XXX</td>
+            <td>一等奖</td>
+            <td>1</td>
+            <td><button class="draw-btn" data-prize="一等奖" data-limit="1">开始抽奖</button></td>
+          </tr>
+          <tr>
+            <td>XXX</td>
+            <td>二等奖</td>
+            <td>2</td>
+            <td><button class="draw-btn" data-prize="二等奖" data-limit="2">开始抽奖</button></td>
+          </tr>
+          <tr>
+            <td>XXX</td>
+            <td>三等奖</td>
+            <td>3</td>
+            <td><button class="draw-btn" data-prize="三等奖" data-limit="3">开始抽奖</button></td>
+          </tr>
+          <tr>
+            <td>XXX</td>
+            <td>幸运奖</td>
+            <td>5</td>
+            <td><button class="draw-btn" data-prize="幸运奖" data-limit="5">开始抽奖</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div id="result">
+        <h2>中奖名单</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>奖项</th>
+              <th>中奖者</th>
+            </tr>
+          </thead>
+          <tbody id="resultTable">
+            <!-- 中奖名单动态生成 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

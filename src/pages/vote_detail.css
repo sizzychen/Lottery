@@ -1,0 +1,99 @@
+
+
+vote_body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  height: 100vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    /* 这是在小于800px的屏幕上应用的样式 */
+    width: 100%;
+  }
+  .logo {
+     max-width: 360px;
+   }
+
+   p {
+     margin-top: 1em;
+   }
+ }
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+form input[type="radio"] {
+  margin-right: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* 设置投票结果展示表格的样式 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
