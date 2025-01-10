@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 let participants = ["陈旭东", "黄茂俊", "胡状状", "金瑶", "刘天平", "刘毅", "刘祯", "李亚飞", "李梓雨", "谢武", "杨豪", "赵晨越", "李益仪", "陈茜茜", "廖满娥", "李佳路", "袁志锋", "高伟", "丁萍萍", "嵇道明", "廖伟强", "郭意如"];
 let originalParticipants = [...participants]; // 保存初始名单
 let winners = {}; // 中奖记录
